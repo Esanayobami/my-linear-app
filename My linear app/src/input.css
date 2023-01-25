@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* glass background */
+.glass-background{
+     /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.34);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.6px);
+     -webkit-backdrop-filter: blur(5.6px);
+}
+.scale-div>div{
+     transform: scale(0.5);
+}
+.scroll-bar::-webkit-scrollbar{
+     width: 5px;
+     height: 3px;
+     background-color: #030617;
+ }
+ .scroll-bar::-webkit-scrollbar-thumb{
+     background-color: #b4bcd0;
+ }
+ .togglemenu{
+     visibility: visible;
+ }
